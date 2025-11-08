@@ -1,9 +1,9 @@
-Flipkart Smartphone Web Scraping & Exploratory Data Analysis
-Overview
+# Flipkart Smartphone Web Scraping & Exploratory Data Analysis
+## Overview
 
 This project performs end-to-end web scraping, data cleaning, and exploratory data analysis (EDA) on smartphone listings available on Flipkart. Using Python and BeautifulSoup, smartphone specifications such as RAM, ROM, camera, display size, processor, battery capacity, rating, and pricing were extracted and evaluated to understand trends and patterns in the Indian smartphone market.
 
-Objectives
+## Objectives
 
 Scrape detailed smartphone information from Flipkart.
 
@@ -15,7 +15,7 @@ Perform univariate, bivariate, and multivariate EDA.
 
 Identify trends related to pricing, brand performance, and top specifications.
 
-Features
+## Features
 
 Automated multi-page web scraping using BeautifulSoup
 
@@ -35,42 +35,18 @@ Correlation analysis
 
 Rating analysis
 
-Dataset Description
+## Tech Stack
 
-The final dataset contains the following columns:
+- Python
+- BeautifulSoup
+- Requests
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Column	Description
-Brand	Smartphone brand
-Model	Device name/model
-RAM (GB)	RAM capacity
-ROM (GB)	Internal storage capacity
-Processor	Processor information
-Display (inch)	Screen size
-Camera	Rear/Front camera configuration
-Battery (mAh)	Battery capacity
-Operating System	Operating system
-Price (₹)	Smartphone price
-Overall Rating	User rating
-Total Reviews	Number of user reviews
-Tech Stack
-
-Python
-
-BeautifulSoup
-
-Requests
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-Web Scraping Workflow
+## Web Scraping Workflow
 
 Fetch Flipkart smartphone listing pages with HTTP requests.
 
@@ -98,8 +74,8 @@ Converted numerical fields into consistent formats
 
 Removed duplicates
 
-Exploratory Data Analysis (EDA)
-Univariate Analysis
+## Exploratory Data Analysis (EDA)
+### Univariate Analysis
 
 Price distribution
 
@@ -109,7 +85,7 @@ Rating distribution
 
 Battery capacity distribution
 
-Bivariate / Multivariate Analysis
+### Bivariate / Multivariate Analysis
 
 Price vs RAM
 
@@ -121,7 +97,7 @@ Ratings vs Brand
 
 Correlation heatmap of smartphone specifications
 
-Key Insights
+## Key Insights
 
 Mid-range smartphones dominate with balanced specs and reasonable prices.
 
